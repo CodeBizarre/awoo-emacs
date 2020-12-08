@@ -1,8 +1,6 @@
 # Awoo Emacs
 ### An Emacs config to howl about
-![](https://i.imgur.com/yj1qYd4.png)
-
-TODO: Python, Rust, C, C++, Java, Kotlin, CSS/HTML/JS, TypeScript, Lua...
+![](https://i.imgur.com/liOPdj0.png)
 
 ### In-development
 This is my first dive into configuring a proper setup for Emacs. It's probably not efficient yet,
