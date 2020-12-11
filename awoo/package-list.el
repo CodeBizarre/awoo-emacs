@@ -32,7 +32,9 @@
     '(typo-el :type git :host github :repo "jorgenschaefer/typoel")
 )
 
-(straight-use-package 'doom-modeline)
+(straight-use-package 'doom-modeline
+    :defer t
+)
 
 ;;; Code
 (straight-use-package 'yasnippet)
