@@ -15,9 +15,9 @@
 (setq awoo-font "Courier-11")
 
 ;; Editor theme
-;; By default Awoo Emacs only includes the default spacemacs themes,
-;; this will change later once I have finished my custom theme.
-(setq awoo-theme 'spacemacs-dark)
+;; By default Awoo Emacs only includes the default awoo theme.
+;; If you would like to use another theme, you must install it.
+(setq awoo-theme 'awoo)
 
 ;;; BINDS
 ;; Only binds for built-in packages should be set here.

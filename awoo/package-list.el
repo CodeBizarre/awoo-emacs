@@ -34,8 +34,6 @@
 
 (straight-use-package 'doom-modeline)
 
-(straight-use-package 'spacemacs-theme)
-
 ;;; Code
 (straight-use-package 'yasnippet)
 (straight-use-package 'yasnippet-snippets)
