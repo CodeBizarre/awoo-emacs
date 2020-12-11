@@ -36,5 +36,14 @@
 ;; Put your own custom init BELOW this line
 ;; Note that this runs BEFORE plugin initialization!
 
+;; Emacs standard custom-set-variables and custom-set-faces
+(custom-set-variables
+
+ )
+
+(custom-set-faces
+
+ )
+
 ;; End of file
 (provide 'awoo-config)
