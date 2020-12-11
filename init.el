@@ -125,6 +125,9 @@
 (add-to-list 'load-path awoo-dir)
 (add-to-list 'load-path (format "%s/plugins" awoo-dir))
 
+;; Set the custom file to the awoo-custom.el
+(setq custom-file (format "%s/awoo-config.el" awoo-dir))
+
 ;; Load the Awoo Emacs global config first
 (require 'awoo-config)
 
