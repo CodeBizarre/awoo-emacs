@@ -2,6 +2,9 @@
 ### An Emacs config to howl about
 ![](https://i.imgur.com/liOPdj0.png)
 
+#### Just looking for the theme?
+[Get it here.](https://github.com/CodeBizarre/emacs-awoo-theme)
+
 ### In-development
 This is my first dive into configuring a proper setup for Emacs. It's probably not efficient yet,
 it's organized in a way that makes sense to me and might not make sense to you.
