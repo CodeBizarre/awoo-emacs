@@ -22,13 +22,13 @@ other platforms!
             * By default ccls location is set to `/usr/bin/ccls`, if this is not correct (Such as on Windows) you MUST change it in `emacs.d/awoo/languages/awoo-c-cpp.el`.
 
       B) `cmake`, and `libclang` (Ensure you have a valid ClangConfig.cmake available for the install command)
-      
+
     1.2) `node.js` for TypeScript support
-    
+
     1.3) `rust`, `rustfmt`, and [rust-analyzer](https://github.com/rust-analyzer/rust-analyzer) for Rust support.
-    
+
     1.4) `lua` for Lua support (Obviously...)
-    
+
     1.5) Any desired [Flycheck languages](https://www.flycheck.org/en/latest/languages.html#flycheck-languages)
 
 2) Backup your current emacs configuration:
@@ -50,7 +50,7 @@ git clone https://github.com/CodeBizarre/awoo-emacs.git .emacs.d
     4.3) Language-specific configuration files are contained within `.emacs.d/awoo/languages/awoo-<language>.el` for easy management. If you would like to remove support for a language you don't use, simply remove its file, the opposite applies for adding a language. All files in this directory will be loaded second-to-last, right before `awoo-custom.el`.
 
     4.4) Add any desired post-init additions/overrides to `~/.emacs.d/awoo/awoo-custom.el`
-    
+
 5) Launch emacs and allow the plugins to download
 
 6) Run required post-setup
@@ -86,3 +86,6 @@ Most of the default bindings are used for plugins, specifically overriden/specif
 * Centaur Tabs:
   * `C-<prior>` - centaur-tabs-backward
   * `C-<next>` - centaur-tabs-forward
+
+### But what does it look like?
+![](https://i.imgur.com/FAljFaF.png)
